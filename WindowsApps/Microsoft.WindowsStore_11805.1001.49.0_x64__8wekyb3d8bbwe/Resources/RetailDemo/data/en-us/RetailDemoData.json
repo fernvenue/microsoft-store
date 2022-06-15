@@ -1,0 +1,24 @@
+﻿{
+  "Items": 
+  [
+    {
+      "Id": 1,
+      "ImageUri": "ms-appx:///Resources/RetailDemo/data/en-us/1.jpg",
+      "HeaderTextResourceId": "DesktopHeaderText1",
+      "BodyTextResourceId": "DesktopBodyText1"
+    },
+    {
+      "Id": 2,
+      "ImageUri": "ms-appx:///Resources/RetailDemo/data/en-us/2.jpg",
+      "HeaderTextResourceId": "DesktopHeaderText2",
+      "BodyTextResourceId": "DesktopBodyText2"
+    },
+    {
+      "Id": 3,
+      "ImageUri": "ms-appx:///Resources/RetailDemo/data/en-us/3.jpg",
+      "HeaderTextResourceId": "DesktopHeaderText3",
+      "BodyTextResourceId": "DesktopBodyText3"
+    }
+  ],
+  "AutoRotateTimeInSeconds": 15
+}

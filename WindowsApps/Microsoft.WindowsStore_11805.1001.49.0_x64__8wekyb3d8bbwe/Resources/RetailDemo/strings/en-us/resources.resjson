@@ -1,0 +1,40 @@
+﻿// For details on localizing a Windows app, see: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+	 "DesktopHeaderText1": "Tap into the new Store",
+	 "_DesktopHeaderText1.comment"     : "Header on First page of RetailDemo For Desktop",
+
+     "DesktopBodyText1": "Welcome to the Windows Store, your one-stop shop for free apps and games, and music, movies, and TV shows.",
+	 "_DesktopBodyText1.comment"     : "Body on first page of retaildemo For Desktop",
+
+	 "DesktopHeaderText2": "Games, tunes, flicks, and apps",
+     "_DesktopHeaderText2.comment"     : "Header on second page of RetailDemo For Desktop",
+
+	 "DesktopBodyText2": "A ton of games. More quality apps. One of the biggest music catalogs in the world. The latest hit TV shows and movies.",
+	 "_DesktopBodyText2.comment"     : "Body on second page of retaildemo For Desktop",
+
+	 "DesktopHeaderText3": "Buy once, enjoy anywhere",
+     "_DesktopHeaderText3.comment"     : "Header on third page of RetailDemo For Desktop",
+
+	 "DesktopBodyText3": "Take your stuff wherever you go. Get stuff once and play it on any compatible device—your phone, laptop, desktop, or Xbox.",
+	 "_DesktopBodyText3.comment"     : "Body on third page of retaildemo For Desktop",
+
+	 "PhoneHeaderText1": "Tap into the new Store",
+	 "_PhoneHeaderText1.comment"     : "Header on First page of RetailDemo For Phone",
+
+     "PhoneBodyText1": "Welcome to the Windows Store, your one-stop shop for free apps and games, and music, movies and TV shows.",
+	 "_PhoneBodyText1.comment"     : "Body on first page of retaildemo For Phone",
+
+	 "PhoneHeaderText2": "Games, apps, tunes, and flicks",
+     "_PhoneHeaderText2.comment"     : "Header on second page of RetailDemo For Phone",
+
+	 "PhoneBodyText2": "A ton of games. More quality apps. One of the biggest music catalogs in the world. Hit TV shows and movies.",
+	 "_PhoneBodyText2.comment"     : "Body on second page of retaildemo For Phone",
+
+	 "PhoneHeaderText3": "Buy once, enjoy anywhere",
+     "_PhoneHeaderText3.comment"     : "Header on third page of RetailDemo For Phone",
+
+	 "PhoneBodyText3": "Get stuff once and play it on any compatible device—your phone, laptop, desktop, or Xbox.",
+	 "_PhoneBodyText3.comment"     : "Body on third page of retaildemo For Phone",
+
+}

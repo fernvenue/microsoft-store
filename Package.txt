@@ -1,0 +1,9 @@
+Microsoft.NET*
+Microsoft.VCLibs*
+Microsoft.Advertising*
+Microsoft.WindowsStore*_x64_*
+Microsoft.WindowsStore*
+Microsoft.StorePurchaseApp*_x64_*
+Microsoft.StorePurchaseApp*
+Microsoft.XboxIdentityProvider*_x64_*
+Microsoft.XboxIdentityProvider*

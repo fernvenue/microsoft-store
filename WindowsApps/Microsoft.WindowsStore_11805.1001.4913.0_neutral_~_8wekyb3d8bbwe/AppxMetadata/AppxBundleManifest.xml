@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="3.0" xmlns="http://schemas.microsoft.com/appx/2013/bundle">
+	<Identity Name="Microsoft.WindowsStore" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11805.1001.4913.0"/>
+	<Packages>
+		<Package Type="application" Version="11805.1001.49.0" Architecture="x86" FileName="WinStore_11805.1001.49.0_x86.appx" Offset="40476976" Size="15911658">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="11805.1001.49.0" Architecture="x64" FileName="WinStore_11805.1001.49.0_x64.appx" Offset="21699968" Size="18776921">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="11805.1001.49.0" Architecture="arm" FileName="WinStore_11805.1001.49.0_ARM.appx" Offset="63" Size="17853739">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-af" FileName="WinStore_11805.1001.49.0_language-af.appx" Offset="17853897" Size="33704">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-am" FileName="WinStore_11805.1001.49.0_language-am.appx" Offset="17887696" Size="38887">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ar" FileName="WinStore_11805.1001.49.0_language-ar.appx" Offset="17926678" Size="37175">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-as" FileName="WinStore_11805.1001.49.0_language-as.appx" Offset="17963948" Size="38831">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-az-latn" FileName="WinStore_11805.1001.49.0_language-az-latn.appx" Offset="18002879" Size="35453">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-be" FileName="WinStore_11805.1001.49.0_language-be.appx" Offset="18038427" Size="39882">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-bg" FileName="WinStore_11805.1001.49.0_language-bg.appx" Offset="18078404" Size="38579">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-bn" FileName="WinStore_11805.1001.49.0_language-bn.appx" Offset="18117078" Size="54739">
+			<Resources>
+				<Resource Language="bn-bd"/>
+				<Resource Language="bn-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-bs" FileName="WinStore_11805.1001.49.0_language-bs.appx" Offset="18171912" Size="36112">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ca" FileName="WinStore_11805.1001.49.0_language-ca.appx" Offset="18208119" Size="49577">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-cs" FileName="WinStore_11805.1001.49.0_language-cs.appx" Offset="18257791" Size="36575">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-cy" FileName="WinStore_11805.1001.49.0_language-cy.appx" Offset="18294461" Size="34683">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-da" FileName="WinStore_11805.1001.49.0_language-da.appx" Offset="18329239" Size="33402">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-de" FileName="WinStore_11805.1001.49.0_language-de.appx" Offset="18362736" Size="35808">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-el" FileName="WinStore_11805.1001.49.0_language-el.appx" Offset="18398639" Size="39717">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-es" FileName="WinStore_11805.1001.49.0_language-es.appx" Offset="18438451" Size="47970">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-et" FileName="WinStore_11805.1001.49.0_language-et.appx" Offset="18486516" Size="34577">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-eu" FileName="WinStore_11805.1001.49.0_language-eu.appx" Offset="18521188" Size="33770">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-fa" FileName="WinStore_11805.1001.49.0_language-fa.appx" Offset="18555053" Size="37329">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-fi" FileName="WinStore_11805.1001.49.0_language-fi.appx" Offset="18592477" Size="34429">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-fil-latn" FileName="WinStore_11805.1001.49.0_language-fil-latn.appx" Offset="18627007" Size="35321">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-fr" FileName="WinStore_11805.1001.49.0_language-fr.appx" Offset="18662423" Size="52778">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ga" FileName="WinStore_11805.1001.49.0_language-ga.appx" Offset="18715296" Size="35654">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-gd-latn" FileName="WinStore_11805.1001.49.0_language-gd-latn.appx" Offset="18751050" Size="36726">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-gl" FileName="WinStore_11805.1001.49.0_language-gl.appx" Offset="18787871" Size="34374">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-gu" FileName="WinStore_11805.1001.49.0_language-gu.appx" Offset="18822340" Size="38589">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ha-latn" FileName="WinStore_11805.1001.49.0_language-ha-latn.appx" Offset="18861029" Size="28622">
+			<Resources>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-he" FileName="WinStore_11805.1001.49.0_language-he.appx" Offset="18889746" Size="35085">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-hi" FileName="WinStore_11805.1001.49.0_language-hi.appx" Offset="18924926" Size="38918">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-hr" FileName="WinStore_11805.1001.49.0_language-hr.appx" Offset="18963939" Size="35887">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-hu" FileName="WinStore_11805.1001.49.0_language-hu.appx" Offset="18999921" Size="36347">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-hy" FileName="WinStore_11805.1001.49.0_language-hy.appx" Offset="19036363" Size="37338">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-id" FileName="WinStore_11805.1001.49.0_language-id.appx" Offset="19073796" Size="33159">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ig-latn" FileName="WinStore_11805.1001.49.0_language-ig-latn.appx" Offset="19107055" Size="29410">
+			<Resources>
+				<Resource Language="ig-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-is" FileName="WinStore_11805.1001.49.0_language-is.appx" Offset="19136560" Size="35039">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-it" FileName="WinStore_11805.1001.49.0_language-it.appx" Offset="19171694" Size="34349">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ja" FileName="WinStore_11805.1001.49.0_language-ja.appx" Offset="19206138" Size="35596">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ka" FileName="WinStore_11805.1001.49.0_language-ka.appx" Offset="19241829" Size="38311">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-kk" FileName="WinStore_11805.1001.49.0_language-kk.appx" Offset="19280235" Size="37508">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-km" FileName="WinStore_11805.1001.49.0_language-km.appx" Offset="19317838" Size="39753">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-kn" FileName="WinStore_11805.1001.49.0_language-kn.appx" Offset="19357686" Size="38613">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ko" FileName="WinStore_11805.1001.49.0_language-ko.appx" Offset="19396394" Size="34084">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-kok" FileName="WinStore_11805.1001.49.0_language-kok.appx" Offset="19430574" Size="38792">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ku-arab" FileName="WinStore_11805.1001.49.0_language-ku-arab.appx" Offset="19469466" Size="32009">
+			<Resources>
+				<Resource Language="ku-arab-iq"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ky-cyrl" FileName="WinStore_11805.1001.49.0_language-ky-cyrl.appx" Offset="19501575" Size="38713">
+			<Resources>
+				<Resource Language="ky-kg"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-lb" FileName="WinStore_11805.1001.49.0_language-lb.appx" Offset="19540383" Size="35518">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-lo" FileName="WinStore_11805.1001.49.0_language-lo.appx" Offset="19575996" Size="39328">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-lt" FileName="WinStore_11805.1001.49.0_language-lt.appx" Offset="19615419" Size="35834">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-lv" FileName="WinStore_11805.1001.49.0_language-lv.appx" Offset="19651348" Size="36398">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-mi-latn" FileName="WinStore_11805.1001.49.0_language-mi-latn.appx" Offset="19687846" Size="34780">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-mk" FileName="WinStore_11805.1001.49.0_language-mk.appx" Offset="19722721" Size="37437">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ml" FileName="WinStore_11805.1001.49.0_language-ml.appx" Offset="19760253" Size="39217">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-mn-cyrl" FileName="WinStore_11805.1001.49.0_language-mn-cyrl.appx" Offset="19799570" Size="37330">
+			<Resources>
+				<Resource Language="mn-mn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-mr" FileName="WinStore_11805.1001.49.0_language-mr.appx" Offset="19836995" Size="38888">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ms" FileName="WinStore_11805.1001.49.0_language-ms.appx" Offset="19875978" Size="33810">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-mt" FileName="WinStore_11805.1001.49.0_language-mt.appx" Offset="19909883" Size="35529">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-nb" FileName="WinStore_11805.1001.49.0_language-nb.appx" Offset="19945507" Size="33503">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ne" FileName="WinStore_11805.1001.49.0_language-ne.appx" Offset="19979105" Size="38671">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-nl" FileName="WinStore_11805.1001.49.0_language-nl.appx" Offset="20017871" Size="34564">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-nn" FileName="WinStore_11805.1001.49.0_language-nn.appx" Offset="20052530" Size="33358">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-nso" FileName="WinStore_11805.1001.49.0_language-nso.appx" Offset="20085984" Size="29468">
+			<Resources>
+				<Resource Language="nso-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-or" FileName="WinStore_11805.1001.49.0_language-or.appx" Offset="20115547" Size="39419">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-pa" FileName="WinStore_11805.1001.49.0_language-pa.appx" Offset="20155061" Size="39279">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-pa-arab" FileName="WinStore_11805.1001.49.0_language-pa-arab.appx" Offset="20194440" Size="32235">
+			<Resources>
+				<Resource Language="pa-arab-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-pl" FileName="WinStore_11805.1001.49.0_language-pl.appx" Offset="20226770" Size="36453">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-prs-arab" FileName="WinStore_11805.1001.49.0_language-prs-arab.appx" Offset="20263324" Size="37402">
+			<Resources>
+				<Resource Language="prs-af"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-pt" FileName="WinStore_11805.1001.49.0_language-pt.appx" Offset="20300821" Size="52009">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-quz-latn" FileName="WinStore_11805.1001.49.0_language-quz-latn.appx" Offset="20352931" Size="34705">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ro" FileName="WinStore_11805.1001.49.0_language-ro.appx" Offset="20387731" Size="35725">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ru" FileName="WinStore_11805.1001.49.0_language-ru.appx" Offset="20423551" Size="39731">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-rw" FileName="WinStore_11805.1001.49.0_language-rw.appx" Offset="20463377" Size="28708">
+			<Resources>
+				<Resource Language="rw-rw"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sd-arab" FileName="WinStore_11805.1001.49.0_language-sd-arab.appx" Offset="20492185" Size="37258">
+			<Resources>
+				<Resource Language="sd-arab-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-si" FileName="WinStore_11805.1001.49.0_language-si.appx" Offset="20529538" Size="39169">
+			<Resources>
+				<Resource Language="si-lk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sk" FileName="WinStore_11805.1001.49.0_language-sk.appx" Offset="20568802" Size="36745">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sl" FileName="WinStore_11805.1001.49.0_language-sl.appx" Offset="20605642" Size="36139">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sq" FileName="WinStore_11805.1001.49.0_language-sq.appx" Offset="20641876" Size="35446">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sr-cyrl" FileName="WinStore_11805.1001.49.0_language-sr-cyrl.appx" Offset="20677422" Size="58226">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sr-latn" FileName="WinStore_11805.1001.49.0_language-sr-latn.appx" Offset="20735748" Size="36455">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sv" FileName="WinStore_11805.1001.49.0_language-sv.appx" Offset="20772298" Size="33844">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-sw" FileName="WinStore_11805.1001.49.0_language-sw.appx" Offset="20806237" Size="33738">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ta" FileName="WinStore_11805.1001.49.0_language-ta.appx" Offset="20840070" Size="39257">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-te" FileName="WinStore_11805.1001.49.0_language-te.appx" Offset="20879422" Size="39107">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-tg-cyrl" FileName="WinStore_11805.1001.49.0_language-tg-cyrl.appx" Offset="20918629" Size="32315">
+			<Resources>
+				<Resource Language="tg-cyrl-tj"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-th" FileName="WinStore_11805.1001.49.0_language-th.appx" Offset="20951039" Size="37268">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ti" FileName="WinStore_11805.1001.49.0_language-ti.appx" Offset="20988402" Size="32526">
+			<Resources>
+				<Resource Language="ti-et"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-tk-latn" FileName="WinStore_11805.1001.49.0_language-tk-latn.appx" Offset="21021028" Size="34158">
+			<Resources>
+				<Resource Language="tk-tm"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-tn" FileName="WinStore_11805.1001.49.0_language-tn.appx" Offset="21055281" Size="29588">
+			<Resources>
+				<Resource Language="tn-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-tr" FileName="WinStore_11805.1001.49.0_language-tr.appx" Offset="21084964" Size="35448">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-tt-cyrl" FileName="WinStore_11805.1001.49.0_language-tt-cyrl.appx" Offset="21120512" Size="37241">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ug-arab" FileName="WinStore_11805.1001.49.0_language-ug-arab.appx" Offset="21157853" Size="36640">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-uk" FileName="WinStore_11805.1001.49.0_language-uk.appx" Offset="21194588" Size="39586">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-ur" FileName="WinStore_11805.1001.49.0_language-ur.appx" Offset="21234269" Size="38092">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-uz-latn" FileName="WinStore_11805.1001.49.0_language-uz-latn.appx" Offset="21272461" Size="35311">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-vi" FileName="WinStore_11805.1001.49.0_language-vi.appx" Offset="21307867" Size="36487">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-wo-latn" FileName="WinStore_11805.1001.49.0_language-wo-latn.appx" Offset="21344454" Size="28824">
+			<Resources>
+				<Resource Language="wo-sn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-xh" FileName="WinStore_11805.1001.49.0_language-xh.appx" Offset="21373373" Size="28882">
+			<Resources>
+				<Resource Language="xh-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-yo-latn" FileName="WinStore_11805.1001.49.0_language-yo-latn.appx" Offset="21402355" Size="30440">
+			<Resources>
+				<Resource Language="yo-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-zh-hans" FileName="WinStore_11805.1001.49.0_language-zh-hans.appx" Offset="21432895" Size="33027">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-zh-hant" FileName="WinStore_11805.1001.49.0_language-zh-hant.appx" Offset="21466022" Size="33322">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.language-zu" FileName="WinStore_11805.1001.49.0_language-zu.appx" Offset="21499439" Size="29146">
+			<Resources>
+				<Resource Language="zu-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.scale-100" FileName="WinStore_11805.1001.49.0_scale-100.appx" Offset="21528678" Size="30214">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.scale-125" FileName="WinStore_11805.1001.49.0_scale-125.appx" Offset="21558985" Size="16570">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.scale-150" FileName="WinStore_11805.1001.49.0_scale-150.appx" Offset="21575648" Size="18246">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.49.0" ResourceId="split.scale-400" FileName="WinStore_11805.1001.49.0_scale-400.appx" Offset="21593987" Size="105894">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+		</Package>
+	</Packages>
+</Bundle>

@@ -1,0 +1,41 @@
+﻿<tile>
+  <visual version="3">
+    <binding template="TileMedium" displayName="{storename}" branding="nameAndLogo">
+      <image src="{MediumBackground}" placement="peek"/>
+      <text hint-wrap="true" hint-style="caption" hint-maxLines="2">{MediumTitle}</text>
+      <text hint-style="captionsubtle" hint-maxLines="1">{MediumSubtext}</text>
+    </binding>
+
+    <binding template="TileWide" displayName="{storename}" branding="nameAndLogo" >
+      <image src="{WideBackground}" placement="peek"/>
+      <group>
+        <subgroup hint-weight="25">
+          <image placement="Inline" src="{WideIcon}" />
+        </subgroup>
+        <subgroup>
+          <text hint-wrap="false" hint-style="body" hint-maxLines="1">{WideTitle}</text>
+          <text hint-style="captionsubtle" hint-maxLines="1">{WideSubtext}</text>
+        </subgroup>
+      </group>          
+    </binding>
+
+    <binding template="TileLarge" displayName="{storename}" branding="nameAndLogo" >
+      <image src="{LargeBackground}" placement="peek"/>
+      <group>
+        <subgroup hint-weight="33">
+          <image placement="Inline" src="{LargeIcon}" />
+        </subgroup>
+        <subgroup>
+        </subgroup>
+      </group>
+      <group>
+        <subgroup>
+          <text hint-wrap="true" hint-style="subtitle" hint-maxLines="1">{LargeTitle}</text>
+          <text hint-style="captionsubtle" hint-maxLines="1">{LargeSubtext}</text>
+          <text hint-style="caption" />
+          <text hint-wrap="true" hint-style="caption" hint-maxLines="2">{LargeDescription}</text>
+        </subgroup>
+      </group>
+    </binding>
+  </visual>
+</tile>

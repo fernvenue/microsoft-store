@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="3.0" xmlns="http://schemas.microsoft.com/appx/2013/bundle">
+	<Identity Name="Microsoft.XboxIdentityProvider" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="12.44.20001.0"/>
+	<Packages>
+		<Package Type="application" Version="12.44.20001.0" Architecture="x64" FileName="XboxIdp_12.44.20001.0_x64.appx" Offset="2757843" Size="2023420">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="12.44.20001.0" Architecture="arm" FileName="XboxIdp_12.44.20001.0_ARM.appx" Offset="60" Size="1941691">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-af" FileName="XboxIdp_12.44.20001.0_language-af.appx" Offset="1941843" Size="13307">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-am" FileName="XboxIdp_12.44.20001.0_language-am.appx" Offset="1955242" Size="13921">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ar" FileName="XboxIdp_12.44.20001.0_language-ar.appx" Offset="1969255" Size="13784">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-az-latn" FileName="XboxIdp_12.44.20001.0_language-az-latn.appx" Offset="1983136" Size="13613">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-be" FileName="XboxIdp_12.44.20001.0_language-be.appx" Offset="1996841" Size="14079">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-bg" FileName="XboxIdp_12.44.20001.0_language-bg.appx" Offset="2011012" Size="14088">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-bn" FileName="XboxIdp_12.44.20001.0_language-bn.appx" Offset="2025192" Size="14111">
+			<Resources>
+				<Resource Language="bn-bd"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ca" FileName="XboxIdp_12.44.20001.0_language-ca.appx" Offset="2039395" Size="13492">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-cs" FileName="XboxIdp_12.44.20001.0_language-cs.appx" Offset="2052979" Size="13646">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-da" FileName="XboxIdp_12.44.20001.0_language-da.appx" Offset="2066717" Size="13315">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-de" FileName="XboxIdp_12.44.20001.0_language-de.appx" Offset="2080124" Size="13486">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-el" FileName="XboxIdp_12.44.20001.0_language-el.appx" Offset="2093702" Size="14305">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-es" FileName="XboxIdp_12.44.20001.0_language-es.appx" Offset="2108099" Size="14793">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-et" FileName="XboxIdp_12.44.20001.0_language-et.appx" Offset="2122984" Size="13463">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-eu" FileName="XboxIdp_12.44.20001.0_language-eu.appx" Offset="2136539" Size="13389">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-fa" FileName="XboxIdp_12.44.20001.0_language-fa.appx" Offset="2150020" Size="13983">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-fi" FileName="XboxIdp_12.44.20001.0_language-fi.appx" Offset="2164095" Size="13396">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-fil-latn" FileName="XboxIdp_12.44.20001.0_language-fil-latn.appx" Offset="2177589" Size="13519">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-fr" FileName="XboxIdp_12.44.20001.0_language-fr.appx" Offset="2191200" Size="13620">
+			<Resources>
+				<Resource Language="fr-fr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-gl" FileName="XboxIdp_12.44.20001.0_language-gl.appx" Offset="2204912" Size="13404">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-he" FileName="XboxIdp_12.44.20001.0_language-he.appx" Offset="2218408" Size="13549">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-hi" FileName="XboxIdp_12.44.20001.0_language-hi.appx" Offset="2232049" Size="14062">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-hr" FileName="XboxIdp_12.44.20001.0_language-hr.appx" Offset="2246203" Size="13452">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-hu" FileName="XboxIdp_12.44.20001.0_language-hu.appx" Offset="2259747" Size="13773">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-id" FileName="XboxIdp_12.44.20001.0_language-id.appx" Offset="2273612" Size="13232">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-is" FileName="XboxIdp_12.44.20001.0_language-is.appx" Offset="2286936" Size="13518">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-it" FileName="XboxIdp_12.44.20001.0_language-it.appx" Offset="2300546" Size="13466">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ja" FileName="XboxIdp_12.44.20001.0_language-ja.appx" Offset="2314104" Size="13363">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-kk" FileName="XboxIdp_12.44.20001.0_language-kk.appx" Offset="2327559" Size="13979">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-km" FileName="XboxIdp_12.44.20001.0_language-km.appx" Offset="2341630" Size="14244">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-kn" FileName="XboxIdp_12.44.20001.0_language-kn.appx" Offset="2355966" Size="14145">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ko" FileName="XboxIdp_12.44.20001.0_language-ko.appx" Offset="2370203" Size="13602">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-lo" FileName="XboxIdp_12.44.20001.0_language-lo.appx" Offset="2383897" Size="14075">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-lt" FileName="XboxIdp_12.44.20001.0_language-lt.appx" Offset="2398064" Size="13537">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-lv" FileName="XboxIdp_12.44.20001.0_language-lv.appx" Offset="2411693" Size="13657">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-mk" FileName="XboxIdp_12.44.20001.0_language-mk.appx" Offset="2425442" Size="13892">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ml" FileName="XboxIdp_12.44.20001.0_language-ml.appx" Offset="2439426" Size="14105">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ms" FileName="XboxIdp_12.44.20001.0_language-ms.appx" Offset="2453623" Size="13347">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-nb" FileName="XboxIdp_12.44.20001.0_language-nb.appx" Offset="2467062" Size="13306">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-nl" FileName="XboxIdp_12.44.20001.0_language-nl.appx" Offset="2480460" Size="13396">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-pl" FileName="XboxIdp_12.44.20001.0_language-pl.appx" Offset="2493948" Size="13757">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-pt" FileName="XboxIdp_12.44.20001.0_language-pt.appx" Offset="2507797" Size="15479">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ro" FileName="XboxIdp_12.44.20001.0_language-ro.appx" Offset="2523368" Size="13559">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ru" FileName="XboxIdp_12.44.20001.0_language-ru.appx" Offset="2537019" Size="14036">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-sk" FileName="XboxIdp_12.44.20001.0_language-sk.appx" Offset="2551147" Size="13683">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-sl" FileName="XboxIdp_12.44.20001.0_language-sl.appx" Offset="2564922" Size="13532">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-sq" FileName="XboxIdp_12.44.20001.0_language-sq.appx" Offset="2578546" Size="13499">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-sr-latn" FileName="XboxIdp_12.44.20001.0_language-sr-latn.appx" Offset="2592142" Size="13524">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-sv" FileName="XboxIdp_12.44.20001.0_language-sv.appx" Offset="2605758" Size="13326">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-sw" FileName="XboxIdp_12.44.20001.0_language-sw.appx" Offset="2619176" Size="13347">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-ta" FileName="XboxIdp_12.44.20001.0_language-ta.appx" Offset="2632615" Size="14175">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-te" FileName="XboxIdp_12.44.20001.0_language-te.appx" Offset="2646882" Size="14182">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-th" FileName="XboxIdp_12.44.20001.0_language-th.appx" Offset="2661156" Size="13745">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-tr" FileName="XboxIdp_12.44.20001.0_language-tr.appx" Offset="2674993" Size="13519">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-uk" FileName="XboxIdp_12.44.20001.0_language-uk.appx" Offset="2688604" Size="14165">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-uz-latn" FileName="XboxIdp_12.44.20001.0_language-uz-latn.appx" Offset="2702866" Size="13649">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-vi" FileName="XboxIdp_12.44.20001.0_language-vi.appx" Offset="2716607" Size="14004">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-zh-hans" FileName="XboxIdp_12.44.20001.0_language-zh-hans.appx" Offset="2730708" Size="13454">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="12.44.20001.0" ResourceId="split.language-zh-hant" FileName="XboxIdp_12.44.20001.0_language-zh-hant.appx" Offset="2744259" Size="13500">
+			<Resources>
+				<Resource Language="zh-hk"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="12.44.20001.0" Architecture="x86" FileName="XboxIdp_12.44.20001.0_x86.appx" Offset="4781347" Size="1872525">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+		</Package>
+	</Packages>
+</Bundle>

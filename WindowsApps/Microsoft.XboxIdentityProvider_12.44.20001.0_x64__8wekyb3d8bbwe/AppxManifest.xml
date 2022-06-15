@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp rescap wincap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.XboxIdentityProvider" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="12.44.20001.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="ba88225b-059a-45a2-a8eb-d3580283e49d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <Properties>
+    <DisplayName>ms-resource:DisplayName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.1.6" MinVersion="1.6.24903.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.1.6" MinVersion="1.6.24903.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.25426.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="100"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="Microsoft.XboxIdentityProvider" Executable="XboxIdp.exe" EntryPoint="XboxIdp.App">
+      <uap:VisualElements DisplayName="ms-resource:DisplayName" Square150x150Logo="Assets\Square150x150Logo.png" Description="Xbox Identity Provider" BackgroundColor="#1a1a1a" AppListEntry="none" Square44x44Logo="Assets\Square44x44Logo.png">
+        <uap:DefaultTile>
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.webAccountProvider">
+          <uap:WebAccountProvider Url="https://xsts.auth.xboxlive.com" BackgroundEntryPoint="XboxIdp.Tasks.GetTokenSilentlyTask"/>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <rescap:Capability Name="gameList"/>
+    <wincap:Capability Name="xboxLiveAuthenticationProvider"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>XboxIdp.Native.dll</Path>
+        <ActivatableClass ActivatableClassId="XboxIdp.Native.AuthManHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="XboxIdp.Native.Utilities" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>XboxIdp.dll</Path>
+        <ActivatableClass ActivatableClassId="XboxIdp.Tasks.GetTokenSilentlyTask" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="15.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.28010.0"/>
+    <build:Item Name="ProjectGUID" Value="{F1D8A1AA-0790-4FFA-83D9-4BF4F123620D}"/>
+    <build:Item Name="ilc.exe" Version="1.6.25601.00 built by: PROJECTNGDR1"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="UniversalGenericsOptOut" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="GeneratePGD" Value="false"/>
+    <build:Item Name="ConsumePGD" Value="false"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.28010.0"/>
+    <build:Item Name="WindowsDesktop" Version="10.0.17134.0"/>
+    <build:Item Name="WindowsMobile" Version="10.0.17134.0"/>
+    <build:Item Name="MakePri.exe" Version="10.0.17134.12 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

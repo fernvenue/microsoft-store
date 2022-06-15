@@ -1,0 +1,128 @@
+﻿<!-- This is the Purchase host page taken from \xbox\shellapps\Common\XamlBlender.cs\HtmlHost.html -->
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        iframe {
+            width: 200%;
+            height: 200%;
+            position: absolute;
+            transform: scale(0.50);
+            transform-origin: 0 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+            // Keep track of the opened URL and the valid message domain,
+            // so we can validate the origin when post messages come in.
+            var openedUrl = null;
+            var validMessageDomain = null;
+
+            // Use a counter to uniquely identify each iframe / form pair.
+            var counter = 0;
+
+            var iframe = null;
+
+            navigator.gamepadInputEmulation = "keyboard";
+
+            // Listen for post messages from the server.
+            window.addEventListener("message", function (event) {
+                // Don't inform the WebView of any events which are invalid.  We don't
+                // want to compromise security by sending the event to the WebView.
+                if (isPostMessageValid(event)) {
+                    window.external.notify(typeof (event.data) != "string" ? JSON.stringify(event.data) : event.data);
+                }
+            });
+
+            // Validate the post message. We need to make sure the message is trusted before sending it
+            // to the WebView.
+            function isPostMessageValid(event) {
+                var isValid = false;
+
+                // If we don't even trust the event, don't bother looking any further.
+                if (event.isTrusted) {
+                    var validOriginSchemes = [
+                        "https:",
+                        "ms-appx:",
+                    ];
+
+                    // Validate source.  We can't use event.source.location because we're blocked if
+                    // the site is not in the same domain as the host page.
+                    for (var i = 0; i < validOriginSchemes.length; i++) {
+                        if (event.origin.indexOf(validOriginSchemes[i]) == 0) {
+                            // Origin is valid if it is the beginning of the target URL, but don't be fooled by
+                            // https://goodhost.xboxlive.com.fooledya.com. Note: origin includes only schema and
+                            // hostname, not full URL.
+                            isValid = (openedUrl.indexOf(event.origin) == 0) && (openedUrl[event.origin.length] == '/');
+                            break;
+                        }
+                    }
+
+                    // If that's not a match, validate this came from a site we trust, either the one we
+                    // navigated to or one we've said we'd trust.  The origin is not the URL we navigated
+                    // to. This is either due to redirect or malicious message.  Redirects are okay as
+                    // long as they're in the expected message domain, so check for that now.
+                    if (!isValid) {
+                        var hostSeparator = "://";
+                        var hostStart = event.origin.indexOf(hostSeparator) + hostSeparator.length;
+                        if (hostStart < hostSeparator.length) { // index was -1
+                            throw new Error("origin doesn't include expected host separator (\"" + hostSeparator + "\": " + origin);
+                        }
+
+                        // We're comparing the end of the origin. Figure out where to start the match.
+                        var matchStart = event.origin.length - validMessageDomain.length;
+
+                        // Is there enough of a string to compare?
+                        if (matchStart >= hostStart) {
+                            isValid = (validMessageDomain == event.origin.slice(matchStart));
+
+                            // Make sure we compared the whole hostname or it's preceded by a . so we don't
+                            // get fooled by something like fakexboxlive.com.
+                            if (isValid && (matchStart > hostStart)) {
+                                isValid = (event.origin[matchStart - 1] == '.');
+                            }
+                        }
+                    }
+                }
+
+                return isValid;
+            };
+
+            // For back compat purchases there is no form to submit. Instead
+            // just create a frame to render the purchase page in. xbox.com
+            // will handle navigation once the page is loaded.
+            function openBlendBackCompat(url, messageDomain) {
+                openedUrl = url;
+                validMessageDomain = messageDomain;
+
+                var makeIframe = document.createElement("iframe");
+                makeIframe.setAttribute("src", url);
+                document.body.appendChild(makeIframe);
+            };
+
+            // Post a message to the blend.
+            function postMessage(messageData) {
+                var contentWindow = iframe.contentWindow;
+                contentWindow.postMessage(messageData, "*");
+            };
+
+    </script>
+</body>
+</html>

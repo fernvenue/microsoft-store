@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp wincap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.StorePurchaseApp" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11805.1001.8.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="b6eb1e98-b7e1-442a-a6c0-f1d7fc14c64f" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:DisplayTitle</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\AppTiles\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.14393.0" MaxVersionTested="10.0.17106.0"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.1.6" MinVersion="1.6.24903.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.1.6" MinVersion="1.6.24903.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.22929.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="StoreExperienceHost.exe" EntryPoint="PurchaseApp.App">
+      <uap:VisualElements AppListEntry="none" DisplayName="ms-resource:DisplayTitle" Square150x150Logo="Assets\AppTiles\StoreMedTile.png" Square44x44Logo="Assets\AppTiles\StoreAppList.png" Description="ms-resource:Description" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\StoreWideTile.png"/>
+        <uap:SplashScreen Image="Assets\AppTiles\SplashScreen.png"/>
+      </uap:VisualElements>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="https://*.*.microsoft.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://*.microsoft.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://xbox-pay.chinatvpay.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://xbox-pay-test.com/" Type="include" WindowsRuntimeAccess="none"/>
+      </uap:ApplicationContentUriRules>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <wincap:Capability Name="storeConfiguration"/>
+    <wincap:Capability Name="storeAppInstall"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>StoreExperienceHost.dll</Path>
+        <ActivatableClass ActivatableClassId="Store.Purchase.Component.WebApi.ProductActionApis" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Store.Purchase.Component.WebApi.PageHandlerApis" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Store.Purchase.Component.WebApi.ScenarioApis" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Store.Purchase.Component.WebApi.StoreWebApis" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Store.Purchase.Component.WebApi.IdentityApis" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Store.Purchase.Component.WebApi.TelemetryApis" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="15.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26323.1"/>
+    <build:Item Name="ProjectGUID" Value="{C56534F3-C334-4EA1-8991-FA5E4C93792B}"/>
+    <build:Item Name="ilc.exe" Version="1.6.25221.00 built by: PROJECTNGDR1"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="UniversalGenericsOptOut" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26323.1"/>
+    <build:Item Name="Xbox" Version="10.0.17106.0"/>
+    <build:Item Name="MakePri.exe" Version="10.0.17106.1001 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

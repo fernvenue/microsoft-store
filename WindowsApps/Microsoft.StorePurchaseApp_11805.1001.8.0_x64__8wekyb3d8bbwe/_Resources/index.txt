@@ -1,0 +1,2 @@
+Microsoft.Diagnostics.Tracing.EventSource, Version=1.1.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Microsoft.Diagnostics.Tracing.Messages.resources

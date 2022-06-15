@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="3.0" xmlns="http://schemas.microsoft.com/appx/2013/bundle">
+	<Identity Name="Microsoft.StorePurchaseApp" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11805.1001.813.0"/>
+	<Packages>
+		<Package Type="application" Version="11805.1001.8.0" Architecture="x86" FileName="PurchaseApp_11805.1001.8.0_x86.appx" Offset="5880877" Size="2193468">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="11805.1001.8.0" Architecture="x64" FileName="PurchaseApp_11805.1001.8.0_x64.appx" Offset="3472085" Size="2408703">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="11805.1001.8.0" Architecture="arm" FileName="PurchaseApp_11805.1001.8.0_ARM.appx" Offset="65" Size="2393541">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-af" FileName="PurchaseApp_11805.1001.8.0_language-af.appx" Offset="2393703" Size="10477">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-am" FileName="PurchaseApp_11805.1001.8.0_language-am.appx" Offset="2404277" Size="10931">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ar" FileName="PurchaseApp_11805.1001.8.0_language-ar.appx" Offset="2415305" Size="10641">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-as" FileName="PurchaseApp_11805.1001.8.0_language-as.appx" Offset="2426043" Size="11114">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-az-latn" FileName="PurchaseApp_11805.1001.8.0_language-az-latn.appx" Offset="2437259" Size="10651">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-be" FileName="PurchaseApp_11805.1001.8.0_language-be.appx" Offset="2448007" Size="10776">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-bg" FileName="PurchaseApp_11805.1001.8.0_language-bg.appx" Offset="2458880" Size="10792">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-bn" FileName="PurchaseApp_11805.1001.8.0_language-bn.appx" Offset="2469769" Size="11686">
+			<Resources>
+				<Resource Language="bn-bd"/>
+				<Resource Language="bn-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-bs" FileName="PurchaseApp_11805.1001.8.0_language-bs.appx" Offset="2481552" Size="10597">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ca" FileName="PurchaseApp_11805.1001.8.0_language-ca.appx" Offset="2492246" Size="10928">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-cs" FileName="PurchaseApp_11805.1001.8.0_language-cs.appx" Offset="2503271" Size="10591">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-cy" FileName="PurchaseApp_11805.1001.8.0_language-cy.appx" Offset="2513959" Size="10557">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-da" FileName="PurchaseApp_11805.1001.8.0_language-da.appx" Offset="2524613" Size="10494">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-de" FileName="PurchaseApp_11805.1001.8.0_language-de.appx" Offset="2535204" Size="10630">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-el" FileName="PurchaseApp_11805.1001.8.0_language-el.appx" Offset="2545931" Size="10895">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-es" FileName="PurchaseApp_11805.1001.8.0_language-es.appx" Offset="2556923" Size="11004">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-et" FileName="PurchaseApp_11805.1001.8.0_language-et.appx" Offset="2568024" Size="10528">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-eu" FileName="PurchaseApp_11805.1001.8.0_language-eu.appx" Offset="2578649" Size="10398">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-fa" FileName="PurchaseApp_11805.1001.8.0_language-fa.appx" Offset="2589144" Size="10704">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-fi" FileName="PurchaseApp_11805.1001.8.0_language-fi.appx" Offset="2599945" Size="10428">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-fil-latn" FileName="PurchaseApp_11805.1001.8.0_language-fil-latn.appx" Offset="2610476" Size="10521">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-fr" FileName="PurchaseApp_11805.1001.8.0_language-fr.appx" Offset="2621094" Size="10992">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ga" FileName="PurchaseApp_11805.1001.8.0_language-ga.appx" Offset="2632183" Size="10552">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-gd-latn" FileName="PurchaseApp_11805.1001.8.0_language-gd-latn.appx" Offset="2642837" Size="10621">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-gl" FileName="PurchaseApp_11805.1001.8.0_language-gl.appx" Offset="2653555" Size="10493">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-gu" FileName="PurchaseApp_11805.1001.8.0_language-gu.appx" Offset="2664145" Size="10985">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ha-latn" FileName="PurchaseApp_11805.1001.8.0_language-ha-latn.appx" Offset="2675232" Size="9582">
+			<Resources>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-he" FileName="PurchaseApp_11805.1001.8.0_language-he.appx" Offset="2684911" Size="10512">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-hi" FileName="PurchaseApp_11805.1001.8.0_language-hi.appx" Offset="2695520" Size="11054">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-hr" FileName="PurchaseApp_11805.1001.8.0_language-hr.appx" Offset="2706671" Size="10507">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-hu" FileName="PurchaseApp_11805.1001.8.0_language-hu.appx" Offset="2717275" Size="10617">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-hy" FileName="PurchaseApp_11805.1001.8.0_language-hy.appx" Offset="2727989" Size="10667">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-id" FileName="PurchaseApp_11805.1001.8.0_language-id.appx" Offset="2738753" Size="10417">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ig-latn" FileName="PurchaseApp_11805.1001.8.0_language-ig-latn.appx" Offset="2749272" Size="9604">
+			<Resources>
+				<Resource Language="ig-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-is" FileName="PurchaseApp_11805.1001.8.0_language-is.appx" Offset="2758973" Size="10541">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-it" FileName="PurchaseApp_11805.1001.8.0_language-it.appx" Offset="2769611" Size="10502">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ja" FileName="PurchaseApp_11805.1001.8.0_language-ja.appx" Offset="2780210" Size="10873">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ka" FileName="PurchaseApp_11805.1001.8.0_language-ka.appx" Offset="2791180" Size="10778">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-kk" FileName="PurchaseApp_11805.1001.8.0_language-kk.appx" Offset="2802055" Size="10743">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-km" FileName="PurchaseApp_11805.1001.8.0_language-km.appx" Offset="2812895" Size="11026">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-kn" FileName="PurchaseApp_11805.1001.8.0_language-kn.appx" Offset="2824018" Size="10836">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ko" FileName="PurchaseApp_11805.1001.8.0_language-ko.appx" Offset="2834951" Size="10742">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-kok" FileName="PurchaseApp_11805.1001.8.0_language-kok.appx" Offset="2845791" Size="10963">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ku-arab" FileName="PurchaseApp_11805.1001.8.0_language-ku-arab.appx" Offset="2856856" Size="9647">
+			<Resources>
+				<Resource Language="ku-arab-iq"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ky-cyrl" FileName="PurchaseApp_11805.1001.8.0_language-ky-cyrl.appx" Offset="2866605" Size="10697">
+			<Resources>
+				<Resource Language="ky-kg"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-lb" FileName="PurchaseApp_11805.1001.8.0_language-lb.appx" Offset="2877399" Size="10580">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-lo" FileName="PurchaseApp_11805.1001.8.0_language-lo.appx" Offset="2888076" Size="10888">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-lt" FileName="PurchaseApp_11805.1001.8.0_language-lt.appx" Offset="2899061" Size="10602">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-lv" FileName="PurchaseApp_11805.1001.8.0_language-lv.appx" Offset="2909760" Size="10588">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-mi-latn" FileName="PurchaseApp_11805.1001.8.0_language-mi-latn.appx" Offset="2920450" Size="10395">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-mk" FileName="PurchaseApp_11805.1001.8.0_language-mk.appx" Offset="2930942" Size="10693">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ml" FileName="PurchaseApp_11805.1001.8.0_language-ml.appx" Offset="2941732" Size="10919">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-mn-cyrl" FileName="PurchaseApp_11805.1001.8.0_language-mn-cyrl.appx" Offset="2952753" Size="10720">
+			<Resources>
+				<Resource Language="mn-mn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-mr" FileName="PurchaseApp_11805.1001.8.0_language-mr.appx" Offset="2963570" Size="10952">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ms" FileName="PurchaseApp_11805.1001.8.0_language-ms.appx" Offset="2974619" Size="10454">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-mt" FileName="PurchaseApp_11805.1001.8.0_language-mt.appx" Offset="2985170" Size="10542">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-nb" FileName="PurchaseApp_11805.1001.8.0_language-nb.appx" Offset="2995809" Size="10468">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ne" FileName="PurchaseApp_11805.1001.8.0_language-ne.appx" Offset="3006374" Size="10971">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-nl" FileName="PurchaseApp_11805.1001.8.0_language-nl.appx" Offset="3017442" Size="10624">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-nn" FileName="PurchaseApp_11805.1001.8.0_language-nn.appx" Offset="3028163" Size="10439">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-nso" FileName="PurchaseApp_11805.1001.8.0_language-nso.appx" Offset="3038700" Size="9581">
+			<Resources>
+				<Resource Language="nso-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-or" FileName="PurchaseApp_11805.1001.8.0_language-or.appx" Offset="3048378" Size="11018">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-pa" FileName="PurchaseApp_11805.1001.8.0_language-pa.appx" Offset="3059493" Size="11049">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-pa-arab" FileName="PurchaseApp_11805.1001.8.0_language-pa-arab.appx" Offset="3070644" Size="9637">
+			<Resources>
+				<Resource Language="pa-arab-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-pl" FileName="PurchaseApp_11805.1001.8.0_language-pl.appx" Offset="3080378" Size="10589">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-prs-arab" FileName="PurchaseApp_11805.1001.8.0_language-prs-arab.appx" Offset="3091070" Size="10706">
+			<Resources>
+				<Resource Language="prs-af"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-pt" FileName="PurchaseApp_11805.1001.8.0_language-pt.appx" Offset="3101873" Size="11046">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-quz-latn" FileName="PurchaseApp_11805.1001.8.0_language-quz-latn.appx" Offset="3113022" Size="10470">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ro" FileName="PurchaseApp_11805.1001.8.0_language-ro.appx" Offset="3123589" Size="10573">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ru" FileName="PurchaseApp_11805.1001.8.0_language-ru.appx" Offset="3134259" Size="10816">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-rw" FileName="PurchaseApp_11805.1001.8.0_language-rw.appx" Offset="3145172" Size="9593">
+			<Resources>
+				<Resource Language="rw-rw"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sd-arab" FileName="PurchaseApp_11805.1001.8.0_language-sd-arab.appx" Offset="3154867" Size="10664">
+			<Resources>
+				<Resource Language="sd-arab-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-si" FileName="PurchaseApp_11805.1001.8.0_language-si.appx" Offset="3165628" Size="10947">
+			<Resources>
+				<Resource Language="si-lk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sk" FileName="PurchaseApp_11805.1001.8.0_language-sk.appx" Offset="3176672" Size="10579">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sl" FileName="PurchaseApp_11805.1001.8.0_language-sl.appx" Offset="3187348" Size="10507">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sq" FileName="PurchaseApp_11805.1001.8.0_language-sq.appx" Offset="3197952" Size="10552">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sr-cyrl" FileName="PurchaseApp_11805.1001.8.0_language-sr-cyrl.appx" Offset="3208606" Size="11430">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sr-latn" FileName="PurchaseApp_11805.1001.8.0_language-sr-latn.appx" Offset="3220138" Size="10507">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sv" FileName="PurchaseApp_11805.1001.8.0_language-sv.appx" Offset="3230742" Size="10437">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-sw" FileName="PurchaseApp_11805.1001.8.0_language-sw.appx" Offset="3241276" Size="10471">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ta" FileName="PurchaseApp_11805.1001.8.0_language-ta.appx" Offset="3251844" Size="10849">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-te" FileName="PurchaseApp_11805.1001.8.0_language-te.appx" Offset="3262790" Size="10823">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-tg-cyrl" FileName="PurchaseApp_11805.1001.8.0_language-tg-cyrl.appx" Offset="3273715" Size="9643">
+			<Resources>
+				<Resource Language="tg-cyrl-tj"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-th" FileName="PurchaseApp_11805.1001.8.0_language-th.appx" Offset="3283455" Size="10929">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ti" FileName="PurchaseApp_11805.1001.8.0_language-ti.appx" Offset="3294481" Size="9632">
+			<Resources>
+				<Resource Language="ti-et"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-tk-latn" FileName="PurchaseApp_11805.1001.8.0_language-tk-latn.appx" Offset="3304215" Size="10560">
+			<Resources>
+				<Resource Language="tk-tm"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-tn" FileName="PurchaseApp_11805.1001.8.0_language-tn.appx" Offset="3314872" Size="9609">
+			<Resources>
+				<Resource Language="tn-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-tr" FileName="PurchaseApp_11805.1001.8.0_language-tr.appx" Offset="3324578" Size="10532">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-tt-cyrl" FileName="PurchaseApp_11805.1001.8.0_language-tt-cyrl.appx" Offset="3335212" Size="10760">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ug-arab" FileName="PurchaseApp_11805.1001.8.0_language-ug-arab.appx" Offset="3346074" Size="10726">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-uk" FileName="PurchaseApp_11805.1001.8.0_language-uk.appx" Offset="3356897" Size="10786">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-ur" FileName="PurchaseApp_11805.1001.8.0_language-ur.appx" Offset="3367780" Size="10754">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-uz-latn" FileName="PurchaseApp_11805.1001.8.0_language-uz-latn.appx" Offset="3378636" Size="10556">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-vi" FileName="PurchaseApp_11805.1001.8.0_language-vi.appx" Offset="3389289" Size="10631">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-wo-latn" FileName="PurchaseApp_11805.1001.8.0_language-wo-latn.appx" Offset="3400022" Size="9558">
+			<Resources>
+				<Resource Language="wo-sn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-xh" FileName="PurchaseApp_11805.1001.8.0_language-xh.appx" Offset="3409677" Size="9584">
+			<Resources>
+				<Resource Language="xh-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-yo-latn" FileName="PurchaseApp_11805.1001.8.0_language-yo-latn.appx" Offset="3419363" Size="9627">
+			<Resources>
+				<Resource Language="yo-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-zh-hans" FileName="PurchaseApp_11805.1001.8.0_language-zh-hans.appx" Offset="3429092" Size="10700">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-zh-hant" FileName="PurchaseApp_11805.1001.8.0_language-zh-hant.appx" Offset="3439894" Size="10691">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.language-zu" FileName="PurchaseApp_11805.1001.8.0_language-zu.appx" Offset="3450682" Size="9600">
+			<Resources>
+				<Resource Language="zu-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="11805.1001.8.0" ResourceId="split.scale-100" FileName="PurchaseApp_11805.1001.8.0_scale-100.appx" Offset="3460377" Size="11619">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+		</Package>
+	</Packages>
+</Bundle>

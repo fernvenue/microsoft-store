@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+   xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build"
+   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+   IgnorableNamespaces="uap build mp"> 
+<Identity Name="Microsoft.Advertising.Xaml" 
+  ProcessorArchitecture="x86" 
+  Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" 
+  Version="10.1804.2.0" />
+<Properties>
+  <Framework>true</Framework>
+  <DisplayName>Microsoft Advertising SDK for XAML</DisplayName>
+  <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+  <Description>Microsoft Advertising SDK for XAML</Description>
+  <Logo>logo.png</Logo>
+</Properties>
+<Resources>
+  <Resource Language="en-US" />
+</Resources>
+<Dependencies>
+  <TargetDeviceFamily
+       Name="Windows.Universal"
+       MinVersion="10.0.10240.0"
+       MaxVersionTested="10.0.10240.0" />
+</Dependencies> 
+<mp:PhoneIdentity PhoneProductId="00000000-0000-0000-0000-000000000000" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+<Extensions>
+  <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Advertising.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.MicrosoftAdvertising_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.blank" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.AdControl" ThreadingModel="both" />
+		<ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.NativeAdsManager" ThreadingModel="both" />
+		<ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.NativeImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.ManipulationStateChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.InterstitialAd" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.ExpandProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdErrorEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.ProjectedMediaConstraints" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.PlatformDependency" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.UserUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.HttpClient" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.UserInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdScheduler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.EventLogging" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdExtension" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.SdkInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdPlacement" ThreadingModel="STA" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.Advertisement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdTagCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.AdErrorReport" ThreadingModel="STA" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.Shared.WinRT.NativeAdPlacement" ThreadingModel="STA" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.NativeAdAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Advertising.WinRT.UI.NativeAdClickedEventArgs" ThreadingModel="both" />
+      </InProcessServer>
+   </Extension>
+</Extensions>
+</Package>
