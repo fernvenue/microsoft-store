@@ -8,6 +8,7 @@
 
 - Windows 10 LTSC 2019 (Tested)
 - Windows 10 LTSC 2021 (Tested)
+- Windows 11 LTSC 2024 (Tested)
 
 You can just download the release and double click to install.
 
