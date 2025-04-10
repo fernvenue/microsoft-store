@@ -6,9 +6,11 @@
 
 [Microsoft Store](https://www.microsoft.com/store) package for Windows LTSC.
 
-- Windows 10 LTSC 2019 (Tested)
+- ~~Windows 10 LTSC 2019 (Tested)~~
 - Windows 10 LTSC 2021 (Tested)
 - Windows 11 LTSC 2024 (Tested)
+
+**Update: It was found that the recent LTSC 2019 no longer supports the new version of the Microsoft Store. The store will ask you to update the system before use, and applications can't be installed normally. Therefore, Microsoft Store is no longer usable on LTSC 2019. If you have already installed it, you can uninstall it using [Uninstall.bat](./Uninstall.bat).**
 
 You can just download the release and double click to install.
 
